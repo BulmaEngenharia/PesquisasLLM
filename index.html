@@ -1,152 +1,310 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pacote de Replicação</title>
 
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      background: #f7f9fb;
-      color: #222;
-      line-height: 1.6;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header {
-      background: #0b3558;
-      color: white;
-      padding: 50px 20px;
-      text-align: center;
-    }
+<title>Pacote de Replicação</title>
 
-    header h1 {
-      margin: 0;
-      font-size: 2.2rem;
-    }
+<style>
 
-    header h2 {
-      max-width: 900px;
-      margin: 18px auto 0;
-      font-size: 1.25rem;
-      font-weight: normal;
-    }
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+    background:#f5f7fa;
+    color:#222;
+    line-height:1.7;
+}
 
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
+header{
+    background:#0B3558;
+    color:white;
+    text-align:center;
+    padding:55px 20px;
+}
 
-    section {
-      background: white;
-      padding: 28px;
-      margin-bottom: 24px;
-      border: 1px solid #e2e8f0;
-      border-radius: 6px;
-    }
+header h1{
+    margin:0;
+    font-size:2.3em;
+}
 
-    h2 {
-      color: #0b3558;
-      margin-top: 0;
-      border-bottom: 1px solid #e2e8f0;
-      padding-bottom: 8px;
-    }
+header h2{
+    margin-top:18px;
+    font-weight:normal;
+    font-size:1.25em;
+}
 
-    .article-title {
-      font-weight: bold;
-      color: #222;
-    }
+main{
+    max-width:900px;
+    margin:45px auto;
+    padding:0 20px;
+}
 
-    .links a {
-      display: block;
-      padding: 12px 0;
-      color: #0b5cad;
-      text-decoration: none;
-      font-weight: bold;
-      border-bottom: 1px solid #edf2f7;
-    }
+section{
+    background:white;
+    border:1px solid #dfe6ee;
+    border-radius:6px;
+    padding:28px;
+    margin-bottom:28px;
+}
 
-    .links a:hover {
-      text-decoration: underline;
-    }
+h2{
+    color:#0B3558;
+    margin-top:0;
+    border-bottom:1px solid #e6ecf2;
+    padding-bottom:8px;
+}
 
-    .note {
-      font-size: 0.95rem;
-      color: #555;
-    }
+.article{
+    font-weight:bold;
+    font-size:1.08em;
+    color:#222;
+}
 
-    footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+.card{
+
+    border:1px solid #e6ecf2;
+    border-radius:6px;
+    padding:18px;
+    margin-top:18px;
+
+}
+
+.card h3{
+
+    margin-top:0;
+    color:#0B3558;
+
+}
+
+.card p{
+
+    margin-bottom:15px;
+
+}
+
+.button{
+
+display:inline-block;
+
+background:#0B3558;
+
+color:white;
+
+padding:10px 18px;
+
+text-decoration:none;
+
+border-radius:4px;
+
+font-weight:bold;
+
+}
+
+.button:hover{
+
+background:#154d80;
+
+}
+
+footer{
+
+text-align:center;
+
+padding:30px;
+
+font-size:0.9em;
+
+color:#666;
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-  <h1>Pacote de Replicação</h1>
-  <h2>
-    Impactos do Uso de Modelos de Linguagem de Grande Escala (LLMs)
-    na Docência em Disciplinas de Programação
-  </h2>
+
+<h1>Pacote de Replicação</h1>
+
+<h2>
+
+Impactos do Uso de Modelos de Linguagem de Grande Escala (LLMs)
+na Docência em Disciplinas de Programação
+
+</h2>
+
 </header>
 
 <main>
 
-  <section>
-    <h2>Sobre este material</h2>
+<section>
 
-    <p>
-      Este repositório disponibiliza os materiais suplementares utilizados durante
-      a condução da pesquisa, incluindo os instrumentos de coleta de dados e demais
-      recursos relacionados ao estudo.
-    </p>
+<h2>Sobre este material</h2>
 
-    <p>
-      Material suplementar associado ao artigo:
-    </p>
+<p>
 
-    <p class="article-title">
-      Transformações e Desafios da Docência em Programação no Brasil:
-      O Papel dos Modelos de Linguagem de Grande Escala
-    </p>
-  </section>
+Este repositório reúne os materiais suplementares utilizados durante a condução da pesquisa,
+disponibilizados com o objetivo de promover transparência, reprodutibilidade e apoiar o
+processo de avaliação científica.
 
-  <section>
-    <h2>Documentos disponíveis</h2>
+</p>
 
-    <div class="links">
-      <a href="roteiro/Roteiro_Entrevista.pdf" target="_blank">
-        📄 Roteiro de Entrevista
-      </a>
+<p><b>Artigo associado</b></p>
 
-      <a href="question%C3%A1rio/Formulario_Docentes.pdf" target="_blank">
-        📝 Questionário dos Docentes
-      </a>
-    </div>
-  </section>
+<p class="article">
 
-  <section>
-    <h2>Observação sobre anonimização</h2>
+Transformações e Desafios da Docência em Programação no Brasil:
+O Papel dos Modelos de Linguagem de Grande Escala
 
-    <p class="note">
-      Os documentos foram organizados de forma anonimizada para preservar a
-      confidencialidade dos participantes e evitar informações que possam
-      identificar os autores durante o processo de revisão.
-    </p>
-  </section>
+</p>
+
+</section>
+
+<section>
+
+<h2>Materiais Suplementares</h2>
+
+<div class="card">
+
+<h3>📄 Artigo Submetido</h3>
+
+<p>
+
+Versão do manuscrito submetida para avaliação.
+
+</p>
+
+<a class="button" href="#" target="_blank">
+
+Visualizar documento
+
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>📘 Versão Estendida do Artigo</h3>
+
+<p>
+
+Versão expandida contendo análises complementares, resultados adicionais e
+trechos representativos das entrevistas que não puderam ser incluídos na
+versão submetida em razão das limitações de páginas do evento.
+
+</p>
+
+<a class="button" href="#" target="_blank">
+
+Visualizar documento
+
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>📄 Roteiro de Entrevista e Termo de Consentimento</h3>
+
+<p>
+
+Instrumento utilizado durante a coleta de dados, incluindo o roteiro
+semiestruturado das entrevistas e o Termo de Consentimento Livre e
+Esclarecido lido aos participantes.
+
+</p>
+
+<a class="button"
+href="roteiro/Roteiro_Entrevista.pdf"
+target="_blank">
+
+Visualizar documento
+
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>📝 Questionário de Caracterização dos Docentes</h3>
+
+<p>
+
+Questionário aplicado após a entrevista para caracterização do perfil dos
+participantes.
+
+</p>
+
+<a class="button"
+href="question%C3%A1rio/Formulario_Docentes.pdf"
+target="_blank">
+
+Visualizar documento
+
+</a>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>📑 Apêndice – Evidências Qualitativas</h3>
+
+<p>
+
+Documento contendo trechos anonimizados das entrevistas utilizados para
+fundamentar as categorias e interpretações apresentadas no artigo.
+
+</p>
+
+<a class="button"
+href="#"
+target="_blank">
+
+Visualizar documento
+
+</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Observações</h2>
+
+<p>
+
+Todos os documentos disponibilizados neste repositório foram organizados de
+forma anonimizada, preservando a confidencialidade dos participantes e
+removendo informações que possam identificar autores ou participantes
+durante o processo de avaliação por pares.
+
+</p>
+
+</section>
 
 </main>
 
 <footer>
-  Material suplementar da pesquisa — 2026
+
+Material suplementar disponibilizado para fins de transparência científica,
+reprodutibilidade e apoio ao processo de avaliação do artigo.
+
 </footer>
 
 </body>
+
 </html>
